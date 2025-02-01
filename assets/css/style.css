@@ -1,0 +1,82 @@
+* {
+  font-family: montserrat;
+}
+.about-title {
+  margin-top: 70px;
+}
+section {
+  padding-top: 4rem;
+}
+#home {
+  background-color: #fff;
+}
+#about {
+  background-color: #8fd8b69c;
+}
+#about p {
+  color: #8b0000;
+}
+#advantages {
+  background-color: #8fd8b69c;
+}
+.advantage-title {
+  color: saddlebrown;
+}
+.advantage-icon {
+  font-size: 2rem;
+  color: #8b0000;
+}
+
+#contact {
+  background-color: #8fd8b69c;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+.navbar-light .navbar-nav .navbar-link {
+  color: #000;
+}
+.w-100 {
+  height: 100vh;
+}
